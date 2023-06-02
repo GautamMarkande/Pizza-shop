@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  line-height: 1.2;
+}
+
+.header {
+  /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    font-family: 'Ruda', sans-serif; */
+  display: flex;
+  position: fixed;
+  background-color: rgb(251, 249, 249);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 20;
+  top: 0;
+  flex-wrap: wrap;
+}
+
+.header .heading {
+  font-family: "Ruda", sans-serif;
+  font-weight: bold;
+}
+.nav-items {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-transform: uppercase;
+}
+.social-media-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.instagram {
+  background-image: url("contest images/insta.png");
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 6px;
+}
+.facebook {
+  background-image: url("contest images/fb.png");
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.whatsapp {
+  background-image: url("contest images/wp.png");
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner {
+  height: 700px;
+  background-image: url("/contest images/bannner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: opacity(0.9);
+  filter: contrast(0.9);
+  filter: brightness(0.6);
+  justify-content: stretch;
+}
+.line {
+  width: 33%;
+  height: 9px;
+  border-radius: 5px;
+  background-color: #f24c4c;
+  margin-left: 50px;
+  position: absolute;
+  top: 60%;
+}
+
+.info-banner {
+  width: 30%;
+  margin-left: 50px;
+  position: absolute;
+  top: 60%;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.banner-heading > h1 {
+  width: 30%;
+  margin-left: 50px;
+  position: absolute;
+  top: 30%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Quattrocento", sans-serif;
+}
+.banner-heading {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: 50px;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.about-heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Quattrocento", sans-serif;
+}
+.about-line {
+  position: relative;
+  margin: auto;
+}
+.about-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  position: relative;
+  margin-bottom: 200px;
+  font-family: "Quattrocento", sans-serif;
+  line-height: 1.2;
+}
+.about-para-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  background-image: url("/contest images/dough-3082589_1920 1.jpg");
+  height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 100px;
+  box-shadow: gray;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+  margin-left: 60px;
+}
+.menu-para {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  position: relative;
+  margin-left: 90px;
+  align-items: center;
+  font-family: "Ruda", sans-serif;
+}
+.pizza-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  column-gap: 80px;
+  margin-left: 100px;
+  word-wrap:break-word;
+}
+.pizza-name {
+  color: #f2c94c;
+  text-transform: uppercase;
+  font-family: "Ruda", sans-serif;
+}
+.pizza-desc {
+  width: 231px;
+  margin-right: 200px;
+  font-family: "Ruda", sans-serif;
+}
+.pizza-images-1 {
+  background-image: url("/contest images/pizza2.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.pizza-images-2 {
+  background-image: url("/contest images/pizza5.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.pizza-images-3 {
+  background-image: url("/contest images/bread2.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.pizza-images-4 {
+  background-image: url("/contest images/bread.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.pizza-images-5 {
+  background-image: url("/contest images/Untitled.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.pizza-no {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pizza-images-6 {
+  background-image: url("/contest images/shake1.jpg");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+}
+.find-us {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.location,
+.number {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.location-logo {
+  background-image: url("/contest images/location.png");
+  height: 40px;
+  width: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mobile-logo {
+  background-image: url("/contest images/phone.png");
+  height: 40px;
+  width: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6px;
+}
+.find-us-left-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  font-family: "Ruda", sans-serif;
+}
+.find-us-right-container {
+  background-image: url("/contest images/image 4.jpg");
+  height: 300px;
+  width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .find-us-right-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+} */
+.find-us .find-us-row {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+.heading-of-main {
+  margin-top: 10px;
+}
+.footer {
+  width: 200px;
+  height: 180px;
+  border: 1px solid black;
+  background-color: black;
+}
+.body {
+  background-image: url("./contest images/Vector.png");
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.topi {
+  background-image: url("./contest images/topi.png");
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 61px;
+  margin-left: 45px;
+}
+.head {
+  background-image: url("./contest images/head.png");
+  height: 50px;
+  width: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 77px;
+  margin-left: 50px;
+}
+.bartan {
+  background-image: url("./contest images/bartan.png");
+  height: 36px;
+  width: 46px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 99px;
+}
+.plate {
+  background-image: url("./contest images/plate.png");
+  height: 36px;
+  width: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 72px;
+  margin-left: 96px;
+}
+.right{
+  width: 200px;
+  height: 180px;
+  border: 1px solid black;
+  background-color: black;
+}
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 700px;
+  margin-top: 60px;
+  margin-left: 60px;
+  flex-wrap: wrap-reverse;
+}
