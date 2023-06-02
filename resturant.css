@@ -84,7 +84,7 @@ body {
 }
 .banner {
   height: 700px;
-  background-image: url("/contest images/bannner-image.jpg");
+  background-image: url("contest images/bannner-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ body {
 }
 
 .about-image {
-  background-image: url("/contest images/dough-3082589_1920 1.jpg");
+  background-image: url("contest images/dough-3082589_1920 1.jpg");
   height: 300px;
   width: 500px;
   background-repeat: no-repeat;
@@ -215,31 +215,31 @@ body {
   font-family: "Ruda", sans-serif;
 }
 .pizza-images-1 {
-  background-image: url("/contest images/pizza2.jpg");
+  background-image: url("contest images/pizza2.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
 }
 .pizza-images-2 {
-  background-image: url("/contest images/pizza5.jpg");
+  background-image: url("contest images/pizza5.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
 }
 .pizza-images-3 {
-  background-image: url("/contest images/bread2.jpg");
+  background-image: url("contest images/bread2.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
 }
 .pizza-images-4 {
-  background-image: url("/contest images/bread.jpg");
+  background-image: url("contest images/bread.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
 }
 .pizza-images-5 {
-  background-image: url("/contest images/Untitled.jpg");
+  background-image: url("contest images/Untitled.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
@@ -251,7 +251,7 @@ body {
   flex-wrap: wrap;
 }
 .pizza-images-6 {
-  background-image: url("/contest images/shake1.jpg");
+  background-image: url("contest images/shake1.jpg");
   height: 150px;
   width: 200px;
   background-size: cover;
@@ -271,14 +271,14 @@ body {
   font-size: 20px;
 }
 .location-logo {
-  background-image: url("/contest images/location.png");
+  background-image: url("contest images/location.png");
   height: 40px;
   width: 24px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .mobile-logo {
-  background-image: url("/contest images/phone.png");
+  background-image: url("contest images/phone.png");
   height: 40px;
   width: 24px;
   background-size: contain;
@@ -293,7 +293,7 @@ body {
   font-family: "Ruda", sans-serif;
 }
 .find-us-right-container {
-  background-image: url("/contest images/image 4.jpg");
+  background-image: url("contest images/image 4.jpg");
   height: 300px;
   width: 40%;
   background-size: cover;
@@ -322,7 +322,7 @@ body {
   background-color: black;
 }
 .body {
-  background-image: url("./contest images/Vector.png");
+  background-image: url("contest images/Vector.png");
   height: 50px;
   width: 50px;
   background-size: cover;
@@ -331,7 +331,7 @@ body {
   margin-left: 50px;
 }
 .topi {
-  background-image: url("./contest images/topi.png");
+  background-image: url("contest images/topi.png");
   height: 50px;
   width: 50px;
   background-size: contain;
@@ -341,7 +341,7 @@ body {
   margin-left: 45px;
 }
 .head {
-  background-image: url("./contest images/head.png");
+  background-image: url("contest images/head.png");
   height: 50px;
   width: 40px;
   background-size: contain;
@@ -351,7 +351,7 @@ body {
   margin-left: 50px;
 }
 .bartan {
-  background-image: url("./contest images/bartan.png");
+  background-image: url("contest images/bartan.png");
   height: 36px;
   width: 46px;
   background-size: contain;
@@ -361,7 +361,7 @@ body {
   margin-left: 99px;
 }
 .plate {
-  background-image: url("./contest images/plate.png");
+  background-image: url("contest images/plate.png");
   height: 36px;
   width: 55px;
   background-size: contain;
